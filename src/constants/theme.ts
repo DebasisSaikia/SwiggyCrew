@@ -14,6 +14,29 @@ export const Colors = {
     backgroundElement: '#F0F0F3',
     backgroundSelected: '#E0E1E6',
     textSecondary: '#60646C',
+
+    primary: '#0A84FF',
+    onPrimary: '#ffffff',
+    cardBorder: '#E5E6EA',
+    ratingStar: '#F5A623',
+
+    badgeFlightStay: '#E4EEFF',
+    badgeFlightStayText: '#0A57C2',
+    badgeVilla: '#E9F7EE',
+    badgeVillaText: '#1C8A4B',
+    badgeExperience: '#FBEAE0',
+    badgeExperienceText: '#C1541F',
+
+    bubbleUser: '#0A84FF',
+    bubbleUserText: '#ffffff',
+    bubbleAssistant: '#F0F0F3',
+    bubbleAssistantText: '#000000',
+
+    overlayBackground: 'rgba(20, 20, 24, 0.85)',
+    overlayText: '#ffffff',
+    statusGood: '#34C759',
+    statusWarning: '#F5A623',
+    statusDanger: '#FF3B30',
   },
   dark: {
     text: '#ffffff',
@@ -21,6 +44,29 @@ export const Colors = {
     backgroundElement: '#212225',
     backgroundSelected: '#2E3135',
     textSecondary: '#B0B4BA',
+
+    primary: '#3C9FFE',
+    onPrimary: '#ffffff',
+    cardBorder: '#2E3135',
+    ratingStar: '#F5A623',
+
+    badgeFlightStay: '#173157',
+    badgeFlightStayText: '#8FC1FF',
+    badgeVilla: '#123822',
+    badgeVillaText: '#7EDBA3',
+    badgeExperience: '#3C2415',
+    badgeExperienceText: '#F5B48A',
+
+    bubbleUser: '#3C9FFE',
+    bubbleUserText: '#ffffff',
+    bubbleAssistant: '#212225',
+    bubbleAssistantText: '#ffffff',
+
+    overlayBackground: 'rgba(20, 20, 24, 0.85)',
+    overlayText: '#ffffff',
+    statusGood: '#34C759',
+    statusWarning: '#F5A623',
+    statusDanger: '#FF3B30',
   },
 } as const;
 
@@ -60,6 +106,3 @@ export const Spacing = {
   five: 32,
   six: 64,
 } as const;
-
-export const BottomTabInset = Platform.select({ ios: 50, android: 80 }) ?? 0;
-export const MaxContentWidth = 800;
