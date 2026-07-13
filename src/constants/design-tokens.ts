@@ -44,7 +44,7 @@ export const spacing = {
 export const elevation = {
   card: { color: '#1A1714', opacity: 0.12, offset: { width: 0, height: 4 }, radius: 16 },
   fab: { color: '#000000', opacity: 0.18, offset: { width: 0, height: 6 }, radius: 20 },
-  sheet: { color: '#000000', opacity: 0.15, offset: { width: 0, height: -4 }, radius: 24 },
+  sheet: { color: '#000000', opacity: 0.15, offset: { width: 0, height: -8 }, radius: 24 },
 } as const;
 
 export const typography = {
