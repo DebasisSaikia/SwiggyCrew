@@ -10,15 +10,30 @@ source of truth for in-repo decisions.
 
 ## Tech stack (do not substitute without asking)
 
-- Expo SDK 54+, Expo Router, TypeScript strict
-- @shopify/flash-list for the feed (NOT FlatList — this is a deliberate
-  choice for the 100+ item / 55+ FPS requirement)
-- @gorhom/bottom-sheet + react-native-reanimated 3 + react-native-gesture-handler
-  for the Ask Crew sheet
+Actually-installed versions, verified against live docs — this repo runs
+ahead of what the original Notion planning docs assumed (they were written
+against SDK 54 / Reanimated 3 / FlashList v1). Trust this section over
+those docs when they conflict.
+
+- Expo SDK 57, React Native 0.86, React 19.2, Expo Router, TypeScript strict,
+  New Architecture (default in SDK 57 — required by FlashList v2 below)
+- @shopify/flash-list **v2** for the feed (NOT FlatList). v2 dropped manual
+  size estimation entirely — do NOT set `estimatedItemSize`/`estimatedListSize`;
+  v2 auto-sizes. `overrideItemLayout` only supports span changes now, not
+  custom item sizing.
+- @gorhom/bottom-sheet + react-native-reanimated 4 + react-native-worklets
+  + react-native-gesture-handler for the Ask Crew sheet. Reanimated 4 needs
+  `react-native-worklets` as a separate peer dependency (already installed).
+  The Reanimated babel plugin is auto-configured by `babel-preset-expo` in
+  SDK 57 — do not hand-add a babel plugin entry for it.
 - expo-image for all remote images (explicit width/height + blurhash placeholder)
 - @expo/vector-icons for all iconography (day-highlight icons, chevrons,
-  FAB glyph, send button, minimize icon) — bundled with Expo, no extra
-  install needed. Don't reach for a separate icon package.
+  FAB glyph, send button, minimize icon). NOTE: despite being an Expo
+  package, it is NOT resolvable by default under this repo's pnpm setup —
+  it was explicitly added as a direct dependency in Phase 0. Don't assume
+  other "bundled with Expo" packages are present without checking.
+- @expo-google-fonts/inter + expo-font for the Inter type scale (loaded via
+  `useFonts` in the root layout, gates splash screen hide).
 - NativeWind v4 + Tailwind for styling — STATIC classNames only on anything
   that renders inside the feed list (TripCard). Never build a className
   string dynamically per-item. Anything animated (expand/collapse, sheet
@@ -59,67 +74,45 @@ is not a real API call — it's a client-side simulation, which satisfies
 both the "mock data is fine" constraint and the "appears progressively"
 requirement. Don't flip-flop on this mid-build.
 
-## Data model (see Engineering Plan & ERD doc for full detail)
+## Data model (see Engineering Plan & ERD doc for full detail; canonical
+types live in `src/types/trip.ts`, `src/types/chat.ts`, `src/types/perf.ts`)
 
+```ts
 type TripType = 'FlightStay' | 'Villa' | 'Experience';
 
 interface DayHighlight {
-
-id: string;
-
-dayNumber: number;
-
-title: string;
-
-iconKey: string;
-
+  id: string;
+  dayNumber: number;
+  title: string;
+  iconKey: string;
 }
 
 interface TripBundle {
-
-id: string;
-
-destinationName: string;
-
-heroImageUrl: string;
-
-imageWidth: number;
-
-imageHeight: number;
-
-blurhash: string;
-
-tripType: TripType;
-
-price: number;
-
-currency: string;
-
-durationDays: number;
-
-rating: number;
-
-highlights: DayHighlight[]; // embedded, nested in the mock JSON
-
+  id: string;
+  destinationName: string;
+  heroImageUrl: string;
+  imageWidth: number;
+  imageHeight: number;
+  blurhash: string;
+  tripType: TripType;
+  price: number;
+  currency: string;
+  durationDays: number;
+  rating: number;
+  highlights: DayHighlight[]; // embedded, nested in the mock JSON
 }
 
 type ChatRole = 'user' | 'assistant';
-
 type MessageStatus = 'pending' | 'streaming' | 'complete';
 
 interface ChatMessage {
-
-id: string;
-
-role: ChatRole;
-
-content: string; // committed text only, empty while streaming
-
-status: MessageStatus;
-
-createdAt: number;
-
+  id: string;
+  role: ChatRole;
+  content: string; // committed text only, empty while streaming
+  status: MessageStatus;
+  createdAt: number;
 }
+```
 
 ## Design tokens (from Design Docs — Exact Spec)
 
@@ -136,9 +129,25 @@ createdAt: number;
 
 ## Project structure
 
-(see Architecture & Implementation Plan doc §3 for the full tree —
-keep components/store/data/services/hooks/utils separated as specified
-there; don't collapse everything into one components folder)
+Filenames are kebab-case throughout (repo convention), not the camelCase
+shown in the Architecture doc's tree — same structure, different casing:
+
+```
+src/
+├── app/                       # Expo Router — _layout.tsx, index.tsx (feed screen)
+├── components/{feed,chat,perf}/  # per-domain, pure/presentational
+├── store/                     # feed-store.ts (isSheetOpen only), chat-store.ts
+├── data/                      # mock-bundles.json, generate-mock-data.ts
+├── services/                  # mock-feed-api.ts, mock-ai.ts (Phase 1/2)
+├── types/                     # trip.ts, chat.ts, perf.ts — shared contracts
+├── constants/                 # design-tokens.ts (raw values for Reanimated/dynamic use)
+├── hooks/
+└── utils/                     # perf-math.ts (Phase 3)
+```
+
+Keep these separated — don't collapse everything into one components folder.
+`tailwind.config.js` theme.extend and `src/constants/design-tokens.ts` are
+two views of the same values (Design Docs §1); keep them in sync by hand.
 
 ## What "done" looks like for this repo
 

@@ -1,0 +1,4352 @@
+[
+  {
+    "id": "trip-0000",
+    "destinationName": "Sedona, USA",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0000/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 2200,
+    "currency": "USD",
+    "durationDays": 11,
+    "rating": 3.8,
+    "highlights": [
+      {
+        "id": "trip-0000-day-1",
+        "dayNumber": 1,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0000-day-2",
+        "dayNumber": 2,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0000-day-3",
+        "dayNumber": 3,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0000-day-4",
+        "dayNumber": 4,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0001",
+    "destinationName": "Lisbon, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0001/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1773,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 3.5,
+    "highlights": [
+      {
+        "id": "trip-0001-day-1",
+        "dayNumber": 1,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0001-day-2",
+        "dayNumber": 2,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0001-day-3",
+        "dayNumber": 3,
+        "title": "Beach day",
+        "iconKey": "beach"
+      }
+    ]
+  },
+  {
+    "id": "trip-0002",
+    "destinationName": "Lisbon, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0002/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 968,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 3.8,
+    "highlights": [
+      {
+        "id": "trip-0002-day-1",
+        "dayNumber": 1,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0002-day-2",
+        "dayNumber": 2,
+        "title": "Sunrise trek + local breakfast",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0002-day-3",
+        "dayNumber": 3,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0002-day-4",
+        "dayNumber": 4,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0003",
+    "destinationName": "Marrakesh, Morocco",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0003/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 890,
+    "currency": "USD",
+    "durationDays": 5,
+    "rating": 4.6,
+    "highlights": [
+      {
+        "id": "trip-0003-day-1",
+        "dayNumber": 1,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0003-day-2",
+        "dayNumber": 2,
+        "title": "Beach day",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0003-day-3",
+        "dayNumber": 3,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0003-day-4",
+        "dayNumber": 4,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0004",
+    "destinationName": "Rajasthan, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0004/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1392,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0004-day-1",
+        "dayNumber": 1,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0004-day-2",
+        "dayNumber": 2,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0004-day-3",
+        "dayNumber": 3,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0005",
+    "destinationName": "Kyoto, Japan",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0005/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1632,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 4.6,
+    "highlights": [
+      {
+        "id": "trip-0005-day-1",
+        "dayNumber": 1,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0005-day-2",
+        "dayNumber": 2,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0005-day-3",
+        "dayNumber": 3,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0006",
+    "destinationName": "Zermatt, Switzerland",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0006/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1176,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4,
+    "highlights": [
+      {
+        "id": "trip-0006-day-1",
+        "dayNumber": 1,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0006-day-2",
+        "dayNumber": 2,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0006-day-3",
+        "dayNumber": 3,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0006-day-4",
+        "dayNumber": 4,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      }
+    ]
+  },
+  {
+    "id": "trip-0007",
+    "destinationName": "Phuket, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0007/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 981,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.7,
+    "highlights": [
+      {
+        "id": "trip-0007-day-1",
+        "dayNumber": 1,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0007-day-2",
+        "dayNumber": 2,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0007-day-3",
+        "dayNumber": 3,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0007-day-4",
+        "dayNumber": 4,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0008",
+    "destinationName": "Queenstown, New Zealand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0008/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 796,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4,
+    "highlights": [
+      {
+        "id": "trip-0008-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0008-day-2",
+        "dayNumber": 2,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0008-day-3",
+        "dayNumber": 3,
+        "title": "Beach day",
+        "iconKey": "beach"
+      }
+    ]
+  },
+  {
+    "id": "trip-0009",
+    "destinationName": "Kruger, South Africa",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0009/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 612,
+    "currency": "USD",
+    "durationDays": 3,
+    "rating": 4.5,
+    "highlights": [
+      {
+        "id": "trip-0009-day-1",
+        "dayNumber": 1,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0009-day-2",
+        "dayNumber": 2,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0009-day-3",
+        "dayNumber": 3,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0009-day-4",
+        "dayNumber": 4,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0010",
+    "destinationName": "Phuket, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0010/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 546,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 3.8,
+    "highlights": [
+      {
+        "id": "trip-0010-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0010-day-2",
+        "dayNumber": 2,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0010-day-3",
+        "dayNumber": 3,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0010-day-4",
+        "dayNumber": 4,
+        "title": "City landmarks",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0011",
+    "destinationName": "Kerala, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0011/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 840,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4.8,
+    "highlights": [
+      {
+        "id": "trip-0011-day-1",
+        "dayNumber": 1,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0011-day-2",
+        "dayNumber": 2,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0011-day-3",
+        "dayNumber": 3,
+        "title": "Guided hike",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0012",
+    "destinationName": "Phuket, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0012/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 927,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 3.8,
+    "highlights": [
+      {
+        "id": "trip-0012-day-1",
+        "dayNumber": 1,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0012-day-2",
+        "dayNumber": 2,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0012-day-3",
+        "dayNumber": 3,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0012-day-4",
+        "dayNumber": 4,
+        "title": "Cooking class",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0013",
+    "destinationName": "Porto, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0013/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1606,
+    "currency": "USD",
+    "durationDays": 11,
+    "rating": 3.7,
+    "highlights": [
+      {
+        "id": "trip-0013-day-1",
+        "dayNumber": 1,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0013-day-2",
+        "dayNumber": 2,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0013-day-3",
+        "dayNumber": 3,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0013-day-4",
+        "dayNumber": 4,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0014",
+    "destinationName": "Maldives",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0014/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 2280,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 4.8,
+    "highlights": [
+      {
+        "id": "trip-0014-day-1",
+        "dayNumber": 1,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0014-day-2",
+        "dayNumber": 2,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0014-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0014-day-4",
+        "dayNumber": 4,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0015",
+    "destinationName": "Costa Rica Rainforest",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0015/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 2332,
+    "currency": "USD",
+    "durationDays": 11,
+    "rating": 4.4,
+    "highlights": [
+      {
+        "id": "trip-0015-day-1",
+        "dayNumber": 1,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0015-day-2",
+        "dayNumber": 2,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0015-day-3",
+        "dayNumber": 3,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0016",
+    "destinationName": "Banff, Canada",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0016/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 568,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 3.5,
+    "highlights": [
+      {
+        "id": "trip-0016-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0016-day-2",
+        "dayNumber": 2,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0016-day-3",
+        "dayNumber": 3,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0017",
+    "destinationName": "Cape Town, South Africa",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0017/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 368,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 3.9,
+    "highlights": [
+      {
+        "id": "trip-0017-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0017-day-2",
+        "dayNumber": 2,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0017-day-3",
+        "dayNumber": 3,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      }
+    ]
+  },
+  {
+    "id": "trip-0018",
+    "destinationName": "Dubrovnik, Croatia",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0018/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1316,
+    "currency": "USD",
+    "durationDays": 7,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0018-day-1",
+        "dayNumber": 1,
+        "title": "Beach day",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0018-day-2",
+        "dayNumber": 2,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0018-day-3",
+        "dayNumber": 3,
+        "title": "Cooking class",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0019",
+    "destinationName": "Hoi An, Vietnam",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0019/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 640,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 3.7,
+    "highlights": [
+      {
+        "id": "trip-0019-day-1",
+        "dayNumber": 1,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0019-day-2",
+        "dayNumber": 2,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0019-day-3",
+        "dayNumber": 3,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0019-day-4",
+        "dayNumber": 4,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0020",
+    "destinationName": "Queenstown, New Zealand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0020/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1000,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0020-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0020-day-2",
+        "dayNumber": 2,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0020-day-3",
+        "dayNumber": 3,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0020-day-4",
+        "dayNumber": 4,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0021",
+    "destinationName": "Santorini, Greece",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0021/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1170,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.3,
+    "highlights": [
+      {
+        "id": "trip-0021-day-1",
+        "dayNumber": 1,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0021-day-2",
+        "dayNumber": 2,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0021-day-3",
+        "dayNumber": 3,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0021-day-4",
+        "dayNumber": 4,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0022",
+    "destinationName": "Faroe Islands, Denmark",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0022/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1136,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0022-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0022-day-2",
+        "dayNumber": 2,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0022-day-3",
+        "dayNumber": 3,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0022-day-4",
+        "dayNumber": 4,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0023",
+    "destinationName": "Seoul, South Korea",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0023/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1992,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 4,
+    "highlights": [
+      {
+        "id": "trip-0023-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0023-day-2",
+        "dayNumber": 2,
+        "title": "Valley trail",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0023-day-3",
+        "dayNumber": 3,
+        "title": "Valley trail",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0023-day-4",
+        "dayNumber": 4,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0024",
+    "destinationName": "Dubrovnik, Croatia",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0024/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1548,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.5,
+    "highlights": [
+      {
+        "id": "trip-0024-day-1",
+        "dayNumber": 1,
+        "title": "Valley trail",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0024-day-2",
+        "dayNumber": 2,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0024-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0025",
+    "destinationName": "Interlaken, Switzerland",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0025/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 684,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0025-day-1",
+        "dayNumber": 1,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0025-day-2",
+        "dayNumber": 2,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0025-day-3",
+        "dayNumber": 3,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0025-day-4",
+        "dayNumber": 4,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0026",
+    "destinationName": "Porto, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0026/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 510,
+    "currency": "USD",
+    "durationDays": 3,
+    "rating": 3.6,
+    "highlights": [
+      {
+        "id": "trip-0026-day-1",
+        "dayNumber": 1,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0026-day-2",
+        "dayNumber": 2,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0026-day-3",
+        "dayNumber": 3,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0027",
+    "destinationName": "Phuket, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0027/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 860,
+    "currency": "USD",
+    "durationDays": 5,
+    "rating": 4.4,
+    "highlights": [
+      {
+        "id": "trip-0027-day-1",
+        "dayNumber": 1,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0027-day-2",
+        "dayNumber": 2,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0027-day-3",
+        "dayNumber": 3,
+        "title": "Sunrise trek + local breakfast",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0027-day-4",
+        "dayNumber": 4,
+        "title": "Guided hike",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0028",
+    "destinationName": "Porto, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0028/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1372,
+    "currency": "USD",
+    "durationDays": 7,
+    "rating": 3.7,
+    "highlights": [
+      {
+        "id": "trip-0028-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0028-day-2",
+        "dayNumber": 2,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0028-day-3",
+        "dayNumber": 3,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0028-day-4",
+        "dayNumber": 4,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0029",
+    "destinationName": "Queenstown, New Zealand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0029/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1980,
+    "currency": "USD",
+    "durationDays": 11,
+    "rating": 4.5,
+    "highlights": [
+      {
+        "id": "trip-0029-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0029-day-2",
+        "dayNumber": 2,
+        "title": "Beach day",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0029-day-3",
+        "dayNumber": 3,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0030",
+    "destinationName": "Cape Town, South Africa",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0030/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1160,
+    "currency": "USD",
+    "durationDays": 10,
+    "rating": 4.8,
+    "highlights": [
+      {
+        "id": "trip-0030-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0030-day-2",
+        "dayNumber": 2,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0030-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0030-day-4",
+        "dayNumber": 4,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0031",
+    "destinationName": "Marrakesh, Morocco",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0031/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1134,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.3,
+    "highlights": [
+      {
+        "id": "trip-0031-day-1",
+        "dayNumber": 1,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0031-day-2",
+        "dayNumber": 2,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0031-day-3",
+        "dayNumber": 3,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0032",
+    "destinationName": "Phuket, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0032/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 798,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4.6,
+    "highlights": [
+      {
+        "id": "trip-0032-day-1",
+        "dayNumber": 1,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0032-day-2",
+        "dayNumber": 2,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0032-day-3",
+        "dayNumber": 3,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0033",
+    "destinationName": "Kruger, South Africa",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0033/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 600,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 3.8,
+    "highlights": [
+      {
+        "id": "trip-0033-day-1",
+        "dayNumber": 1,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0033-day-2",
+        "dayNumber": 2,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0033-day-3",
+        "dayNumber": 3,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      }
+    ]
+  },
+  {
+    "id": "trip-0034",
+    "destinationName": "Costa Rica Rainforest",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0034/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 955,
+    "currency": "USD",
+    "durationDays": 5,
+    "rating": 4.6,
+    "highlights": [
+      {
+        "id": "trip-0034-day-1",
+        "dayNumber": 1,
+        "title": "Beach day",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0034-day-2",
+        "dayNumber": 2,
+        "title": "Beach day",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0034-day-3",
+        "dayNumber": 3,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0035",
+    "destinationName": "Kerala, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0035/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 736,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 4.5,
+    "highlights": [
+      {
+        "id": "trip-0035-day-1",
+        "dayNumber": 1,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0035-day-2",
+        "dayNumber": 2,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0035-day-3",
+        "dayNumber": 3,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      }
+    ]
+  },
+  {
+    "id": "trip-0036",
+    "destinationName": "Seoul, South Korea",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0036/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1504,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 4.2,
+    "highlights": [
+      {
+        "id": "trip-0036-day-1",
+        "dayNumber": 1,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0036-day-2",
+        "dayNumber": 2,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0036-day-3",
+        "dayNumber": 3,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0036-day-4",
+        "dayNumber": 4,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0037",
+    "destinationName": "Phuket, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0037/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 2256,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 3.6,
+    "highlights": [
+      {
+        "id": "trip-0037-day-1",
+        "dayNumber": 1,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0037-day-2",
+        "dayNumber": 2,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0037-day-3",
+        "dayNumber": 3,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0037-day-4",
+        "dayNumber": 4,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0038",
+    "destinationName": "Costa Rica Rainforest",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0038/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 645,
+    "currency": "USD",
+    "durationDays": 3,
+    "rating": 3.6,
+    "highlights": [
+      {
+        "id": "trip-0038-day-1",
+        "dayNumber": 1,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0038-day-2",
+        "dayNumber": 2,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0038-day-3",
+        "dayNumber": 3,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0038-day-4",
+        "dayNumber": 4,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0039",
+    "destinationName": "Queenstown, New Zealand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0039/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 2028,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 3.7,
+    "highlights": [
+      {
+        "id": "trip-0039-day-1",
+        "dayNumber": 1,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0039-day-2",
+        "dayNumber": 2,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0039-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0040",
+    "destinationName": "Banff, Canada",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0040/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1232,
+    "currency": "USD",
+    "durationDays": 7,
+    "rating": 4.5,
+    "highlights": [
+      {
+        "id": "trip-0040-day-1",
+        "dayNumber": 1,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0040-day-2",
+        "dayNumber": 2,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0040-day-3",
+        "dayNumber": 3,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0041",
+    "destinationName": "Sedona, USA",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0041/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1971,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0041-day-1",
+        "dayNumber": 1,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0041-day-2",
+        "dayNumber": 2,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0041-day-3",
+        "dayNumber": 3,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0041-day-4",
+        "dayNumber": 4,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0042",
+    "destinationName": "Maldives",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0042/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1251,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.2,
+    "highlights": [
+      {
+        "id": "trip-0042-day-1",
+        "dayNumber": 1,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0042-day-2",
+        "dayNumber": 2,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0042-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0042-day-4",
+        "dayNumber": 4,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0043",
+    "destinationName": "Kruger, South Africa",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0043/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1360,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 5,
+    "highlights": [
+      {
+        "id": "trip-0043-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0043-day-2",
+        "dayNumber": 2,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0043-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0044",
+    "destinationName": "Goa, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0044/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 285,
+    "currency": "USD",
+    "durationDays": 3,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0044-day-1",
+        "dayNumber": 1,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0044-day-2",
+        "dayNumber": 2,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0044-day-3",
+        "dayNumber": 3,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0045",
+    "destinationName": "Kerala, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0045/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 792,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4.6,
+    "highlights": [
+      {
+        "id": "trip-0045-day-1",
+        "dayNumber": 1,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0045-day-2",
+        "dayNumber": 2,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0045-day-3",
+        "dayNumber": 3,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0045-day-4",
+        "dayNumber": 4,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0046",
+    "destinationName": "Patagonia, Argentina",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0046/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 532,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4.6,
+    "highlights": [
+      {
+        "id": "trip-0046-day-1",
+        "dayNumber": 1,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0046-day-2",
+        "dayNumber": 2,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0046-day-3",
+        "dayNumber": 3,
+        "title": "City landmarks",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0047",
+    "destinationName": "Queenstown, New Zealand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0047/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1260,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0047-day-1",
+        "dayNumber": 1,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0047-day-2",
+        "dayNumber": 2,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0047-day-3",
+        "dayNumber": 3,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0047-day-4",
+        "dayNumber": 4,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0048",
+    "destinationName": "Hoi An, Vietnam",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0048/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 2100,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0048-day-1",
+        "dayNumber": 1,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0048-day-2",
+        "dayNumber": 2,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0048-day-3",
+        "dayNumber": 3,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0049",
+    "destinationName": "Faroe Islands, Denmark",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0049/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1146,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4,
+    "highlights": [
+      {
+        "id": "trip-0049-day-1",
+        "dayNumber": 1,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0049-day-2",
+        "dayNumber": 2,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0049-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0050",
+    "destinationName": "Patagonia, Argentina",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0050/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1106,
+    "currency": "USD",
+    "durationDays": 7,
+    "rating": 4.2,
+    "highlights": [
+      {
+        "id": "trip-0050-day-1",
+        "dayNumber": 1,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0050-day-2",
+        "dayNumber": 2,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0050-day-3",
+        "dayNumber": 3,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0050-day-4",
+        "dayNumber": 4,
+        "title": "Guided hike",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0051",
+    "destinationName": "Bali, Indonesia",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0051/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 963,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 3.6,
+    "highlights": [
+      {
+        "id": "trip-0051-day-1",
+        "dayNumber": 1,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0051-day-2",
+        "dayNumber": 2,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0051-day-3",
+        "dayNumber": 3,
+        "title": "City landmarks",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0052",
+    "destinationName": "Amalfi Coast, Italy",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0052/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1692,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.7,
+    "highlights": [
+      {
+        "id": "trip-0052-day-1",
+        "dayNumber": 1,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0052-day-2",
+        "dayNumber": 2,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0052-day-3",
+        "dayNumber": 3,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0053",
+    "destinationName": "Lisbon, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0053/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1845,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0053-day-1",
+        "dayNumber": 1,
+        "title": "Beach day",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0053-day-2",
+        "dayNumber": 2,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0053-day-3",
+        "dayNumber": 3,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0054",
+    "destinationName": "Kruger, South Africa",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0054/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 968,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 4.4,
+    "highlights": [
+      {
+        "id": "trip-0054-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0054-day-2",
+        "dayNumber": 2,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0054-day-3",
+        "dayNumber": 3,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0054-day-4",
+        "dayNumber": 4,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0055",
+    "destinationName": "Maldives",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0055/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1168,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 4,
+    "highlights": [
+      {
+        "id": "trip-0055-day-1",
+        "dayNumber": 1,
+        "title": "Sunrise trek + local breakfast",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0055-day-2",
+        "dayNumber": 2,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0055-day-3",
+        "dayNumber": 3,
+        "title": "Sunrise trek + local breakfast",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0056",
+    "destinationName": "Tulum, Mexico",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0056/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1940,
+    "currency": "USD",
+    "durationDays": 10,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0056-day-1",
+        "dayNumber": 1,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0056-day-2",
+        "dayNumber": 2,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0056-day-3",
+        "dayNumber": 3,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0056-day-4",
+        "dayNumber": 4,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      }
+    ]
+  },
+  {
+    "id": "trip-0057",
+    "destinationName": "Dubrovnik, Croatia",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0057/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1320,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4.6,
+    "highlights": [
+      {
+        "id": "trip-0057-day-1",
+        "dayNumber": 1,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0057-day-2",
+        "dayNumber": 2,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0057-day-3",
+        "dayNumber": 3,
+        "title": "Beach day",
+        "iconKey": "beach"
+      }
+    ]
+  },
+  {
+    "id": "trip-0058",
+    "destinationName": "Kruger, South Africa",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0058/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 868,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 3.6,
+    "highlights": [
+      {
+        "id": "trip-0058-day-1",
+        "dayNumber": 1,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0058-day-2",
+        "dayNumber": 2,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0058-day-3",
+        "dayNumber": 3,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0058-day-4",
+        "dayNumber": 4,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0059",
+    "destinationName": "Zermatt, Switzerland",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0059/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 552,
+    "currency": "USD",
+    "durationDays": 3,
+    "rating": 3.6,
+    "highlights": [
+      {
+        "id": "trip-0059-day-1",
+        "dayNumber": 1,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0059-day-2",
+        "dayNumber": 2,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0059-day-3",
+        "dayNumber": 3,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0060",
+    "destinationName": "Reykjavik, Iceland",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0060/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1242,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 5,
+    "highlights": [
+      {
+        "id": "trip-0060-day-1",
+        "dayNumber": 1,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0060-day-2",
+        "dayNumber": 2,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0060-day-3",
+        "dayNumber": 3,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0060-day-4",
+        "dayNumber": 4,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      }
+    ]
+  },
+  {
+    "id": "trip-0061",
+    "destinationName": "Rajasthan, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0061/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 640,
+    "currency": "USD",
+    "durationDays": 5,
+    "rating": 3.5,
+    "highlights": [
+      {
+        "id": "trip-0061-day-1",
+        "dayNumber": 1,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0061-day-2",
+        "dayNumber": 2,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0061-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0061-day-4",
+        "dayNumber": 4,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0062",
+    "destinationName": "Queenstown, New Zealand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0062/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 984,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 3.9,
+    "highlights": [
+      {
+        "id": "trip-0062-day-1",
+        "dayNumber": 1,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0062-day-2",
+        "dayNumber": 2,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0062-day-3",
+        "dayNumber": 3,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0062-day-4",
+        "dayNumber": 4,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0063",
+    "destinationName": "Faroe Islands, Denmark",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0063/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1280,
+    "currency": "USD",
+    "durationDays": 10,
+    "rating": 4,
+    "highlights": [
+      {
+        "id": "trip-0063-day-1",
+        "dayNumber": 1,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0063-day-2",
+        "dayNumber": 2,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0063-day-3",
+        "dayNumber": 3,
+        "title": "Cooking class",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0064",
+    "destinationName": "Santorini, Greece",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0064/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1422,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0064-day-1",
+        "dayNumber": 1,
+        "title": "Sunrise trek + local breakfast",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0064-day-2",
+        "dayNumber": 2,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0064-day-3",
+        "dayNumber": 3,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0064-day-4",
+        "dayNumber": 4,
+        "title": "Cooking class",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0065",
+    "destinationName": "Seoul, South Korea",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0065/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1267,
+    "currency": "USD",
+    "durationDays": 7,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0065-day-1",
+        "dayNumber": 1,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0065-day-2",
+        "dayNumber": 2,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0065-day-3",
+        "dayNumber": 3,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0065-day-4",
+        "dayNumber": 4,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      }
+    ]
+  },
+  {
+    "id": "trip-0066",
+    "destinationName": "Cape Town, South Africa",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0066/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1656,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 3.8,
+    "highlights": [
+      {
+        "id": "trip-0066-day-1",
+        "dayNumber": 1,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0066-day-2",
+        "dayNumber": 2,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0066-day-3",
+        "dayNumber": 3,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0066-day-4",
+        "dayNumber": 4,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0067",
+    "destinationName": "Tulum, Mexico",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0067/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 984,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4,
+    "highlights": [
+      {
+        "id": "trip-0067-day-1",
+        "dayNumber": 1,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0067-day-2",
+        "dayNumber": 2,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0067-day-3",
+        "dayNumber": 3,
+        "title": "Guided hike",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0067-day-4",
+        "dayNumber": 4,
+        "title": "Guided hike",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0068",
+    "destinationName": "Queenstown, New Zealand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0068/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 990,
+    "currency": "USD",
+    "durationDays": 10,
+    "rating": 3.9,
+    "highlights": [
+      {
+        "id": "trip-0068-day-1",
+        "dayNumber": 1,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0068-day-2",
+        "dayNumber": 2,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0068-day-3",
+        "dayNumber": 3,
+        "title": "Cooking class",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0069",
+    "destinationName": "Hoi An, Vietnam",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0069/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1242,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4.8,
+    "highlights": [
+      {
+        "id": "trip-0069-day-1",
+        "dayNumber": 1,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0069-day-2",
+        "dayNumber": 2,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0069-day-3",
+        "dayNumber": 3,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0069-day-4",
+        "dayNumber": 4,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      }
+    ]
+  },
+  {
+    "id": "trip-0070",
+    "destinationName": "Phuket, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0070/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 786,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4.5,
+    "highlights": [
+      {
+        "id": "trip-0070-day-1",
+        "dayNumber": 1,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0070-day-2",
+        "dayNumber": 2,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0070-day-3",
+        "dayNumber": 3,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0070-day-4",
+        "dayNumber": 4,
+        "title": "Valley trail",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0071",
+    "destinationName": "Marrakesh, Morocco",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0071/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 819,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 3.7,
+    "highlights": [
+      {
+        "id": "trip-0071-day-1",
+        "dayNumber": 1,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0071-day-2",
+        "dayNumber": 2,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0071-day-3",
+        "dayNumber": 3,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0071-day-4",
+        "dayNumber": 4,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0072",
+    "destinationName": "Costa Rica Rainforest",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0072/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1232,
+    "currency": "USD",
+    "durationDays": 11,
+    "rating": 3.9,
+    "highlights": [
+      {
+        "id": "trip-0072-day-1",
+        "dayNumber": 1,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0072-day-2",
+        "dayNumber": 2,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0072-day-3",
+        "dayNumber": 3,
+        "title": "City landmarks",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0073",
+    "destinationName": "Hoi An, Vietnam",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0073/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1518,
+    "currency": "USD",
+    "durationDays": 11,
+    "rating": 4.4,
+    "highlights": [
+      {
+        "id": "trip-0073-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0073-day-2",
+        "dayNumber": 2,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0073-day-3",
+        "dayNumber": 3,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0073-day-4",
+        "dayNumber": 4,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0074",
+    "destinationName": "Kruger, South Africa",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0074/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 564,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0074-day-1",
+        "dayNumber": 1,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0074-day-2",
+        "dayNumber": 2,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0074-day-3",
+        "dayNumber": 3,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0074-day-4",
+        "dayNumber": 4,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0075",
+    "destinationName": "Patagonia, Argentina",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0075/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 660,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4.8,
+    "highlights": [
+      {
+        "id": "trip-0075-day-1",
+        "dayNumber": 1,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0075-day-2",
+        "dayNumber": 2,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0075-day-3",
+        "dayNumber": 3,
+        "title": "Beach day",
+        "iconKey": "beach"
+      }
+    ]
+  },
+  {
+    "id": "trip-0076",
+    "destinationName": "Queenstown, New Zealand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0076/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1908,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0076-day-1",
+        "dayNumber": 1,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0076-day-2",
+        "dayNumber": 2,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0076-day-3",
+        "dayNumber": 3,
+        "title": "Sunrise trek + local breakfast",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0076-day-4",
+        "dayNumber": 4,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0077",
+    "destinationName": "Hoi An, Vietnam",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0077/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1251,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.4,
+    "highlights": [
+      {
+        "id": "trip-0077-day-1",
+        "dayNumber": 1,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0077-day-2",
+        "dayNumber": 2,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0077-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0078",
+    "destinationName": "Phuket, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0078/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 658,
+    "currency": "USD",
+    "durationDays": 7,
+    "rating": 4.7,
+    "highlights": [
+      {
+        "id": "trip-0078-day-1",
+        "dayNumber": 1,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0078-day-2",
+        "dayNumber": 2,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0078-day-3",
+        "dayNumber": 3,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0079",
+    "destinationName": "Lisbon, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0079/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1518,
+    "currency": "USD",
+    "durationDays": 11,
+    "rating": 4.3,
+    "highlights": [
+      {
+        "id": "trip-0079-day-1",
+        "dayNumber": 1,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0079-day-2",
+        "dayNumber": 2,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0079-day-3",
+        "dayNumber": 3,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      }
+    ]
+  },
+  {
+    "id": "trip-0080",
+    "destinationName": "Sedona, USA",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0080/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1780,
+    "currency": "USD",
+    "durationDays": 10,
+    "rating": 4.2,
+    "highlights": [
+      {
+        "id": "trip-0080-day-1",
+        "dayNumber": 1,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0080-day-2",
+        "dayNumber": 2,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0080-day-3",
+        "dayNumber": 3,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0080-day-4",
+        "dayNumber": 4,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0081",
+    "destinationName": "Phuket, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0081/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1968,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 5,
+    "highlights": [
+      {
+        "id": "trip-0081-day-1",
+        "dayNumber": 1,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0081-day-2",
+        "dayNumber": 2,
+        "title": "Sunrise trek + local breakfast",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0081-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0082",
+    "destinationName": "Interlaken, Switzerland",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0082/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1980,
+    "currency": "USD",
+    "durationDays": 11,
+    "rating": 4.7,
+    "highlights": [
+      {
+        "id": "trip-0082-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0082-day-2",
+        "dayNumber": 2,
+        "title": "Sunrise trek + local breakfast",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0082-day-3",
+        "dayNumber": 3,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0082-day-4",
+        "dayNumber": 4,
+        "title": "Valley trail",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0083",
+    "destinationName": "Queenstown, New Zealand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0083/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 835,
+    "currency": "USD",
+    "durationDays": 5,
+    "rating": 3.9,
+    "highlights": [
+      {
+        "id": "trip-0083-day-1",
+        "dayNumber": 1,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0083-day-2",
+        "dayNumber": 2,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0083-day-3",
+        "dayNumber": 3,
+        "title": "Guided hike",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0084",
+    "destinationName": "Chiang Mai, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0084/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 700,
+    "currency": "USD",
+    "durationDays": 5,
+    "rating": 3.8,
+    "highlights": [
+      {
+        "id": "trip-0084-day-1",
+        "dayNumber": 1,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0084-day-2",
+        "dayNumber": 2,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0084-day-3",
+        "dayNumber": 3,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0084-day-4",
+        "dayNumber": 4,
+        "title": "Guided hike",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0085",
+    "destinationName": "Kerala, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0085/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1188,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 4.3,
+    "highlights": [
+      {
+        "id": "trip-0085-day-1",
+        "dayNumber": 1,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0085-day-2",
+        "dayNumber": 2,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0085-day-3",
+        "dayNumber": 3,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0085-day-4",
+        "dayNumber": 4,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0086",
+    "destinationName": "Kerala, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0086/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 366,
+    "currency": "USD",
+    "durationDays": 3,
+    "rating": 4.4,
+    "highlights": [
+      {
+        "id": "trip-0086-day-1",
+        "dayNumber": 1,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0086-day-2",
+        "dayNumber": 2,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0086-day-3",
+        "dayNumber": 3,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0087",
+    "destinationName": "Lisbon, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0087/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1728,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0087-day-1",
+        "dayNumber": 1,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0087-day-2",
+        "dayNumber": 2,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0087-day-3",
+        "dayNumber": 3,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0088",
+    "destinationName": "Tulum, Mexico",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0088/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 984,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 4.8,
+    "highlights": [
+      {
+        "id": "trip-0088-day-1",
+        "dayNumber": 1,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0088-day-2",
+        "dayNumber": 2,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0088-day-3",
+        "dayNumber": 3,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0088-day-4",
+        "dayNumber": 4,
+        "title": "Guided hike",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0089",
+    "destinationName": "Tulum, Mexico",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0089/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1146,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4.2,
+    "highlights": [
+      {
+        "id": "trip-0089-day-1",
+        "dayNumber": 1,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0089-day-2",
+        "dayNumber": 2,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0089-day-3",
+        "dayNumber": 3,
+        "title": "Beach day",
+        "iconKey": "beach"
+      }
+    ]
+  },
+  {
+    "id": "trip-0090",
+    "destinationName": "Zermatt, Switzerland",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0090/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1738,
+    "currency": "USD",
+    "durationDays": 11,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0090-day-1",
+        "dayNumber": 1,
+        "title": "Valley trail",
+        "iconKey": "hike"
+      },
+      {
+        "id": "trip-0090-day-2",
+        "dayNumber": 2,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0090-day-3",
+        "dayNumber": 3,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0090-day-4",
+        "dayNumber": 4,
+        "title": "Cooking class",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0091",
+    "destinationName": "Hoi An, Vietnam",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0091/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 945,
+    "currency": "USD",
+    "durationDays": 5,
+    "rating": 3.8,
+    "highlights": [
+      {
+        "id": "trip-0091-day-1",
+        "dayNumber": 1,
+        "title": "Beach day",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0091-day-2",
+        "dayNumber": 2,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0091-day-3",
+        "dayNumber": 3,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0092",
+    "destinationName": "Banff, Canada",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0092/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 920,
+    "currency": "USD",
+    "durationDays": 10,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0092-day-1",
+        "dayNumber": 1,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0092-day-2",
+        "dayNumber": 2,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0092-day-3",
+        "dayNumber": 3,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0092-day-4",
+        "dayNumber": 4,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0093",
+    "destinationName": "Seoul, South Korea",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0093/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1940,
+    "currency": "USD",
+    "durationDays": 10,
+    "rating": 4.2,
+    "highlights": [
+      {
+        "id": "trip-0093-day-1",
+        "dayNumber": 1,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0093-day-2",
+        "dayNumber": 2,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0093-day-3",
+        "dayNumber": 3,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0093-day-4",
+        "dayNumber": 4,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0094",
+    "destinationName": "Hoi An, Vietnam",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0094/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 388,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0094-day-1",
+        "dayNumber": 1,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0094-day-2",
+        "dayNumber": 2,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0094-day-3",
+        "dayNumber": 3,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0094-day-4",
+        "dayNumber": 4,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0095",
+    "destinationName": "Chiang Mai, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0095/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 456,
+    "currency": "USD",
+    "durationDays": 3,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0095-day-1",
+        "dayNumber": 1,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0095-day-2",
+        "dayNumber": 2,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0095-day-3",
+        "dayNumber": 3,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0096",
+    "destinationName": "Sedona, USA",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0096/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1320,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 4.4,
+    "highlights": [
+      {
+        "id": "trip-0096-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0096-day-2",
+        "dayNumber": 2,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0096-day-3",
+        "dayNumber": 3,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0097",
+    "destinationName": "Reykjavik, Iceland",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0097/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1035,
+    "currency": "USD",
+    "durationDays": 5,
+    "rating": 4.3,
+    "highlights": [
+      {
+        "id": "trip-0097-day-1",
+        "dayNumber": 1,
+        "title": "Off-road day trip",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0097-day-2",
+        "dayNumber": 2,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0097-day-3",
+        "dayNumber": 3,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0097-day-4",
+        "dayNumber": 4,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0098",
+    "destinationName": "Santorini, Greece",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0098/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 321,
+    "currency": "USD",
+    "durationDays": 3,
+    "rating": 4.2,
+    "highlights": [
+      {
+        "id": "trip-0098-day-1",
+        "dayNumber": 1,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0098-day-2",
+        "dayNumber": 2,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0098-day-3",
+        "dayNumber": 3,
+        "title": "Cooking class",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0099",
+    "destinationName": "Kyoto, Japan",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0099/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1000,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 3.7,
+    "highlights": [
+      {
+        "id": "trip-0099-day-1",
+        "dayNumber": 1,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0099-day-2",
+        "dayNumber": 2,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0099-day-3",
+        "dayNumber": 3,
+        "title": "Guided hike",
+        "iconKey": "hike"
+      }
+    ]
+  },
+  {
+    "id": "trip-0100",
+    "destinationName": "Kerala, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0100/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 520,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4.2,
+    "highlights": [
+      {
+        "id": "trip-0100-day-1",
+        "dayNumber": 1,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0100-day-2",
+        "dayNumber": 2,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0100-day-3",
+        "dayNumber": 3,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0100-day-4",
+        "dayNumber": 4,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0101",
+    "destinationName": "Kerala, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0101/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1300,
+    "currency": "USD",
+    "durationDays": 10,
+    "rating": 3.8,
+    "highlights": [
+      {
+        "id": "trip-0101-day-1",
+        "dayNumber": 1,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0101-day-2",
+        "dayNumber": 2,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0101-day-3",
+        "dayNumber": 3,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0101-day-4",
+        "dayNumber": 4,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      }
+    ]
+  },
+  {
+    "id": "trip-0102",
+    "destinationName": "Rajasthan, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0102/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 2040,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0102-day-1",
+        "dayNumber": 1,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0102-day-2",
+        "dayNumber": 2,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0102-day-3",
+        "dayNumber": 3,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0103",
+    "destinationName": "Zermatt, Switzerland",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0103/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 380,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4.7,
+    "highlights": [
+      {
+        "id": "trip-0103-day-1",
+        "dayNumber": 1,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0103-day-2",
+        "dayNumber": 2,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0103-day-3",
+        "dayNumber": 3,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0103-day-4",
+        "dayNumber": 4,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0104",
+    "destinationName": "Lisbon, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0104/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1057,
+    "currency": "USD",
+    "durationDays": 7,
+    "rating": 5,
+    "highlights": [
+      {
+        "id": "trip-0104-day-1",
+        "dayNumber": 1,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0104-day-2",
+        "dayNumber": 2,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0104-day-3",
+        "dayNumber": 3,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0104-day-4",
+        "dayNumber": 4,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0105",
+    "destinationName": "Phuket, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0105/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1240,
+    "currency": "USD",
+    "durationDays": 10,
+    "rating": 3.6,
+    "highlights": [
+      {
+        "id": "trip-0105-day-1",
+        "dayNumber": 1,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0105-day-2",
+        "dayNumber": 2,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0105-day-3",
+        "dayNumber": 3,
+        "title": "Local food crawl",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0106",
+    "destinationName": "Zermatt, Switzerland",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0106/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 885,
+    "currency": "USD",
+    "durationDays": 5,
+    "rating": 3.9,
+    "highlights": [
+      {
+        "id": "trip-0106-day-1",
+        "dayNumber": 1,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0106-day-2",
+        "dayNumber": 2,
+        "title": "Beach day",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0106-day-3",
+        "dayNumber": 3,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0107",
+    "destinationName": "Kerala, India",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0107/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1953,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 4.1,
+    "highlights": [
+      {
+        "id": "trip-0107-day-1",
+        "dayNumber": 1,
+        "title": "Cooking class",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0107-day-2",
+        "dayNumber": 2,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0107-day-3",
+        "dayNumber": 3,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0107-day-4",
+        "dayNumber": 4,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      }
+    ]
+  },
+  {
+    "id": "trip-0108",
+    "destinationName": "Dubrovnik, Croatia",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0108/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 744,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4.6,
+    "highlights": [
+      {
+        "id": "trip-0108-day-1",
+        "dayNumber": 1,
+        "title": "Historic site tour",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0108-day-2",
+        "dayNumber": 2,
+        "title": "Arrival & check-in",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0108-day-3",
+        "dayNumber": 3,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0109",
+    "destinationName": "Queenstown, New Zealand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0109/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 1628,
+    "currency": "USD",
+    "durationDays": 11,
+    "rating": 4.6,
+    "highlights": [
+      {
+        "id": "trip-0109-day-1",
+        "dayNumber": 1,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0109-day-2",
+        "dayNumber": 2,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0109-day-3",
+        "dayNumber": 3,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0110",
+    "destinationName": "Amalfi Coast, Italy",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0110/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 408,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 3.9,
+    "highlights": [
+      {
+        "id": "trip-0110-day-1",
+        "dayNumber": 1,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0110-day-2",
+        "dayNumber": 2,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0110-day-3",
+        "dayNumber": 3,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0110-day-4",
+        "dayNumber": 4,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0111",
+    "destinationName": "Chiang Mai, Thailand",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0111/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 832,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4.5,
+    "highlights": [
+      {
+        "id": "trip-0111-day-1",
+        "dayNumber": 1,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0111-day-2",
+        "dayNumber": 2,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0111-day-3",
+        "dayNumber": 3,
+        "title": "Coastal walk",
+        "iconKey": "beach"
+      }
+    ]
+  },
+  {
+    "id": "trip-0112",
+    "destinationName": "Lisbon, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0112/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 560,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4,
+    "highlights": [
+      {
+        "id": "trip-0112-day-1",
+        "dayNumber": 1,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0112-day-2",
+        "dayNumber": 2,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0112-day-3",
+        "dayNumber": 3,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0113",
+    "destinationName": "Porto, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0113/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 417,
+    "currency": "USD",
+    "durationDays": 3,
+    "rating": 4.2,
+    "highlights": [
+      {
+        "id": "trip-0113-day-1",
+        "dayNumber": 1,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0113-day-2",
+        "dayNumber": 2,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0113-day-3",
+        "dayNumber": 3,
+        "title": "Cultural performance",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0113-day-4",
+        "dayNumber": 4,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0114",
+    "destinationName": "Bali, Indonesia",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0114/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 720,
+    "currency": "USD",
+    "durationDays": 4,
+    "rating": 4.8,
+    "highlights": [
+      {
+        "id": "trip-0114-day-1",
+        "dayNumber": 1,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0114-day-2",
+        "dayNumber": 2,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0114-day-3",
+        "dayNumber": 3,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0114-day-4",
+        "dayNumber": 4,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      }
+    ]
+  },
+  {
+    "id": "trip-0115",
+    "destinationName": "Hoi An, Vietnam",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0115/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1026,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4.9,
+    "highlights": [
+      {
+        "id": "trip-0115-day-1",
+        "dayNumber": 1,
+        "title": "Pool & lounge",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0115-day-2",
+        "dayNumber": 2,
+        "title": "Beach day",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0115-day-3",
+        "dayNumber": 3,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0115-day-4",
+        "dayNumber": 4,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0116",
+    "destinationName": "Lisbon, Portugal",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0116/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 1968,
+    "currency": "USD",
+    "durationDays": 12,
+    "rating": 3.9,
+    "highlights": [
+      {
+        "id": "trip-0116-day-1",
+        "dayNumber": 1,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0116-day-2",
+        "dayNumber": 2,
+        "title": "Museum & heritage visit",
+        "iconKey": "culture"
+      },
+      {
+        "id": "trip-0116-day-3",
+        "dayNumber": 3,
+        "title": "Water sports",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0116-day-4",
+        "dayNumber": 4,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      }
+    ]
+  },
+  {
+    "id": "trip-0117",
+    "destinationName": "Interlaken, Switzerland",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0117/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7H3+#00}dJ#.7M{oLa{fQfQfQfQ",
+    "tripType": "Villa",
+    "price": 1608,
+    "currency": "USD",
+    "durationDays": 8,
+    "rating": 3.7,
+    "highlights": [
+      {
+        "id": "trip-0117-day-1",
+        "dayNumber": 1,
+        "title": "Sunset by the shore",
+        "iconKey": "beach"
+      },
+      {
+        "id": "trip-0117-day-2",
+        "dayNumber": 2,
+        "title": "Spa & wellness",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0117-day-3",
+        "dayNumber": 3,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      },
+      {
+        "id": "trip-0117-day-4",
+        "dayNumber": 4,
+        "title": "Free day to relax",
+        "iconKey": "relax"
+      }
+    ]
+  },
+  {
+    "id": "trip-0118",
+    "destinationName": "Costa Rica Rainforest",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0118/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L6IE@~00?lN6-@M|j@a#fQfQfQfQ",
+    "tripType": "FlightStay",
+    "price": 819,
+    "currency": "USD",
+    "durationDays": 9,
+    "rating": 3.7,
+    "highlights": [
+      {
+        "id": "trip-0118-day-1",
+        "dayNumber": 1,
+        "title": "Scenic transfer",
+        "iconKey": "flight"
+      },
+      {
+        "id": "trip-0118-day-2",
+        "dayNumber": 2,
+        "title": "Old town walking tour",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0118-day-3",
+        "dayNumber": 3,
+        "title": "City landmarks",
+        "iconKey": "city"
+      },
+      {
+        "id": "trip-0118-day-4",
+        "dayNumber": 4,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      }
+    ]
+  },
+  {
+    "id": "trip-0119",
+    "destinationName": "Ubud, Indonesia",
+    "heroImageUrl": "https://picsum.photos/seed/trip-0119/800/600",
+    "imageWidth": 800,
+    "imageHeight": 600,
+    "blurhash": "L7P#i?00Th+@~ARPbIjsfQfQfQfQ",
+    "tripType": "Experience",
+    "price": 942,
+    "currency": "USD",
+    "durationDays": 6,
+    "rating": 4.2,
+    "highlights": [
+      {
+        "id": "trip-0119-day-1",
+        "dayNumber": 1,
+        "title": "Market breakfast",
+        "iconKey": "food"
+      },
+      {
+        "id": "trip-0119-day-2",
+        "dayNumber": 2,
+        "title": "Adventure excursion",
+        "iconKey": "adventure"
+      },
+      {
+        "id": "trip-0119-day-3",
+        "dayNumber": 3,
+        "title": "Neighborhood exploration",
+        "iconKey": "city"
+      }
+    ]
+  }
+]
