@@ -6,6 +6,7 @@ import { TripCardDetails } from '@/components/feed/trip-card-details';
 import { TripCardImage } from '@/components/feed/trip-card-image';
 import { elevation } from '@/constants/design-tokens';
 import type { TripBundle } from '@/types/trip';
+import { registerCardToggle, unregisterCardToggle } from '@/utils/card-expand-registry';
 import { formatMeta, formatPrice } from '@/utils/format-trip';
 
 interface TripCardProps {
@@ -37,6 +38,15 @@ function TripCardComponent({ trip }: TripCardProps) {
   }, [trip.id, setExpanded]);
 
   const toggleExpanded = useCallback(() => setExpanded((prev) => !prev), [setExpanded]);
+
+  // Debug-only: lets the scripted perf-test harness trigger this exact
+  // card's expand/collapse directly (see card-expand-registry.ts) instead
+  // of synthesizing a touch event, which isn't viable against a live app.
+  useEffect(() => {
+    if (!__DEV__) return;
+    registerCardToggle(trip.id, toggleExpanded);
+    return () => unregisterCardToggle(trip.id);
+  }, [trip.id, toggleExpanded]);
 
   return (
     <View className="w-full overflow-hidden rounded-card bg-surface" style={cardShadow}>

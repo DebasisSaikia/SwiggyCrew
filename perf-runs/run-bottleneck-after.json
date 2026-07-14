@@ -1,0 +1,15 @@
+{
+  "id": "run-1784054826563",
+  "startedAt": 1784054826563,
+  "endedAt": 1784054883774,
+  "p50FrameTimeMs": 8.457886099815369,
+  "p95FrameTimeMs": 27.822061896324158,
+  "worstFrameTimeMs": 122.98425304889679,
+  "frameDropCount": 318,
+  "overlayVisible": true,
+  "device": "Pixel 9 Pro Fold, physical device, 120Hz display",
+  "buildType": "dev-client (Metro attached)",
+  "fix": "trip-card-details.tsx reverted to the 'expanded &&' guard, confirmed byte-identical to pre-regression via git diff — day-highlights ScrollView lazy-mounts again, only for expanded cards",
+  "coldMountFpsObserved": "113 FPS (PerfOverlay reading immediately after app launch, before any scroll) vs 47 FPS on the regressed build — see phase4_fixed.png vs phase4_regressed.png",
+  "scriptedSequence": "30s idle scroll, 3x expand/collapse, open sheet + settle, scripted chat message + 20s concurrent scroll, close sheet"
+}
