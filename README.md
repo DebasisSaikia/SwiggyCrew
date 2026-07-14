@@ -2,30 +2,82 @@
 
 A React Native (Expo Router) take-home: a high-performance Trip Discovery
 Feed, an "Ask Crew" AI bottom sheet, and a custom Performance Overlay.
-Graded primarily on FPS/perf engineering, not feature count. Full
-architecture rationale and phase history live in `CLAUDE.md`; measured
-numbers live in `PERFORMANCE.md`. This file covers setup, state management,
-and known limitations.
+Graded primarily on FPS/perf engineering, not feature count.
+
+## Contents
+
+- [Demo](#demo)
+- [Documentation](#documentation)
+- [Architecture](#architecture)
+- [Setup](#setup)
+- [State management rationale](#state-management-rationale)
+- [Known limitations](#known-limitations)
+- [Project structure](#project-structure)
 
 ## Demo
 
 **Android (physical device)**
 
-
-
 https://github.com/user-attachments/assets/b71d43f1-b53f-4079-9a6e-60cbf0089c73
 
-
-
-
-
 **iOS (simulator)**
-**IOS simulator video size is more than 50mb so can't upload it here ** — Please scan this QR to download the file
 
-<img width="524" height="636" alt="image" src="https://github.com/user-attachments/assets/6eadc7e7-e7e5-4881-8eca-5f6b7904ddf4" />
+The iOS simulator recording is over 50MB (too large to upload here) — scan the QR code to download it.
 
+<img width="524" height="636" alt="QR code linking to the iOS simulator demo video" src="https://github.com/user-attachments/assets/6eadc7e7-e7e5-4881-8eca-5f6b7904ddf4" />
+
+## Documentation
+
+| Doc | What's in it |
+|---|---|
+| [`CLAUDE.md`](./CLAUDE.md) | Source of truth for in-repo decisions — tech stack (with the *why*, including dead ends like the `@gorhom/bottom-sheet` → `@expo/ui` swap), non-negotiable performance rules, data model, design tokens |
+| [`PERFORMANCE.md`](./PERFORMANCE.md) | Methodology, real measured p50/p95/worst-frame numbers, the deliberately-reproduced-and-fixed bottleneck with before/after evidence, one honest trade-off |
+| [`perf-runs/`](./perf-runs) | Raw `PerfRun` JSON artifacts backing the numbers in `PERFORMANCE.md` |
+| [Architecture & Implementation Plan](https://app.notion.com/p/39b2d843b19f81929b15c5bac93c6aab) (Notion) | Original planning doc — tech stack decisions, phase breakdown, testing plan. Updated post-implementation as decisions changed. |
+| [Engineering Plan & ERD](https://app.notion.com/p/39b2d843b19f812a814feb2275a54163) (Notion) | Data model, entity relationships, TypeScript contracts |
+| [Design Docs — Exact Spec](https://app.notion.com/p/39b2d843b19f812bbc64e20c74d23b28) (Notion) | Pixel-level design tokens and per-screen spec |
+| [Claude Code — Build Plan & Phase Prompts](https://app.notion.com/p/39c2d843b19f813ba707c44473586945) (Notion) | The `CLAUDE.md` source and copy-paste phase prompts this repo was built from |
+
+## Architecture
+
+Bare-minimum shape — three independent surfaces sharing a screen, not a query.
+There is no foreign key anywhere linking a chat message to a trip bundle, which
+is what makes "chat updates never re-render the feed" a property of the
+architecture rather than something to remember to protect.
+
+```mermaid
+flowchart TB
+    subgraph Feed["Trip Discovery Feed"]
+        MockFeedApi["mock-feed-api.ts"] --> FeedList["FeedList (FlashList, memo'd)"]
+        FeedList --> TripCard["TripCard (memo'd, primitive props)"]
+    end
+
+    subgraph Chat["Ask Crew Sheet"]
+        Input["ChatInputBar"] --> ChatStore[("chatStore\nmessages, streaming, snap index")]
+        ChatStore --> StreamingText["StreamingText (local state while streaming)"]
+        StreamingText -->|"commit once, on complete"| ChatStore
+        ChatStore --> ChatMessageList["ChatMessageList"]
+        MockAi["mock-ai.ts (streamAssistantReply)"] --> StreamingText
+    end
+
+    subgraph Perf["Performance Overlay"]
+        FpsMeter["FpsMeter (rAF, JS thread)"] --> PerfOverlay["PerfOverlay (~4Hz throttled re-render)"]
+        Heartbeat["useJsThreadHeartbeat (UI thread)"] --> FpsMeter
+    end
+
+    Fab(["FAB"]) -. toggles .-> FeedStore[("feedStore\nisSheetOpen only")]
+    FeedStore -. mounts/presents .-> Chat
+```
+
+The two dotted lines are the *only* connective tissue between the feed and
+chat domains — a boolean flag, not shared data. `feedStore` never holds trip
+or chat data; `chatStore` never holds trip data. See `CLAUDE.md`'s
+non-negotiable rules for how this is enforced.
 
 ## Setup
+
+This app uses `@expo/ui`'s native bottom sheet, which is **not supported in
+Expo Go** — you need a custom dev client.
 
 ```bash
 pnpm install
