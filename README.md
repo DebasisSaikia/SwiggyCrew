@@ -1,56 +1,91 @@
-# Welcome to your Expo app 👋
+# Crew — Trip Discovery Feed + Ask Crew AI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native (Expo Router) take-home: a high-performance Trip Discovery
+Feed, an "Ask Crew" AI bottom sheet, and a custom Performance Overlay.
+Graded primarily on FPS/perf engineering, not feature count. Full
+architecture rationale and phase history live in `CLAUDE.md`; measured
+numbers live in `PERFORMANCE.md`. This file covers setup, state management,
+and known limitations.
 
-## Get started
+## Setup
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+This app uses `@expo/ui`'s native bottom sheet, which is **not supported in
+Expo Go** — you need a custom dev client.
 
 ```bash
-npm run reset-project
+pnpm install
+pnpm generate:mock-data   # regenerates src/data/mock-bundles.json if needed
+pnpm android               # or: pnpm ios
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+`pnpm start` alone just boots Metro — you still need a dev client build
+(`pnpm android`/`pnpm ios`) installed on the device/emulator/simulator at
+least once; after that, `pnpm start` + reopening the installed app is enough
+for iteration.
 
-### Other setup steps
+Requires a physical device or emulator/simulator — some of what's being
+graded (real frame timing, native bottom sheet behavior) isn't meaningful on
+a headless environment.
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## State management rationale
 
-## Learn more
+Two narrow Zustand stores, not one global store, not Context:
 
-To learn more about developing your project with Expo, look at the following resources:
+- **`feedStore`** (`src/store/feed-store.ts`) — just `isSheetOpen: boolean`.
+  Trip bundle data itself is never in a store — it's a static, one-time-loaded
+  array handed directly to `FlashList`'s `data` prop, since there's no
+  mutation and no benefit to indirection.
+- **`chatStore`** (`src/store/chat-store.ts`) — chat messages, streaming
+  state, sheet snap index. Only components inside the Ask Crew sheet
+  subscribe to it.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+The reasoning: the biggest silent killer in "feed + sheet" apps is a shared
+store/context where a chat token update triggers a re-render of the feed
+tree. Two stores with narrow selectors means a streamed token can never
+schedule a re-render of `FeedList` (which is also `React.memo`'d with
+primitive-only props) — this is enforced as a non-negotiable rule, not just
+a preference, see `CLAUDE.md` rule #4. While a message streams, the growing
+text lives in local component state inside the message bubble
+(`StreamingText`), committed to `chatStore` exactly once, on completion —
+rule #3.
 
-## Join the community
+## Known limitations
 
-Join our community of developers creating universal apps.
+- **Android: chat input invisible at the sheet's partial (50%) height.**
+  `ChatInputBar` only renders once the sheet is fully expanded (92%) on
+  Android — a known, deferred issue with `@expo/ui`'s native sheet. A
+  from-scratch custom sheet replacement got further (fixed presenting, fixed
+  a separate Reanimated/secondary-Fabric-surface crash) but hit an
+  unrelated FlatList/ScrollView-sibling rendering bug and broke iOS in the
+  process — reverted back to `@expo/ui` rather than ship something broken on
+  both platforms. Full history in `CLAUDE.md`.
+- **The Ask Crew sheet can only be presented/dismissed, not snapped to a
+  specific point, imperatively.** `@expo/ui`'s `BottomSheetModal` exposes
+  `present()`/`dismiss()` only — no `snapToIndex`-equivalent. This means the
+  scripted perf-test harness (`src/utils/perf-test-harness.ts`) can only
+  drive the sheet to its initial ("half") snap point, not programmatically
+  drag it to full height — see `PERFORMANCE.md`.
+- **Custom `handleComponent`/`backgroundStyle` sheet styling mostly has no
+  effect.** It's a real native sheet (Material3 `ModalBottomSheet` on
+  Android, SwiftUI sheet on iOS), not a custom-drawn one, so it renders its
+  own chrome — the Design Docs' exact drag-handle/corner-radius spec is
+  approximate, not pixel-exact, for this component.
+- **Day-highlight icons and the FAB sparkle icon use raw `react-native-svg`**
+  instead of `@expo/vector-icons`, a pre-existing deviation from Phase 0/1
+  that predates the Phase 2 convention (chat icons use `@expo/vector-icons`
+  correctly). Not fixed as a drive-by — flagged here per `CLAUDE.md`.
+- **Performance numbers in `PERFORMANCE.md` come from a dev-client build on
+  a flagship (Pixel 9 Pro Fold, 120Hz) device**, not a release build or
+  genuinely mid-range hardware — read as this device's ceiling under
+  unoptimized JS, not as a release-build or low-end-device number. See
+  `PERFORMANCE.md`'s "Honest trade-off" section for why.
+- **The scripted perf-test harness reports aggregate stats per run, not
+  per-step.** It can't currently attribute a given dropped frame to a
+  specific script step (e.g. sheet open/close vs. expand/collapse) — see
+  `PERFORMANCE.md`'s methodology section.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Project structure
+
+See `CLAUDE.md` for the full annotated tree, non-negotiable performance
+rules, and the complete Phase 1–4 build history (including dead ends that
+were tried and reverted, and why).

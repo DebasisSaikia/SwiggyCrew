@@ -6,6 +6,7 @@ import { colors } from '@/constants/design-tokens';
 import { useJsThreadHeartbeat } from '@/hooks/use-js-thread-heartbeat';
 import { FpsMeter } from '@/utils/fps-meter';
 import { computeFrameStats, OVERLAY_TICK_MS, type FrameStats } from '@/utils/perf-math';
+import { setActiveMeter } from '@/utils/perf-recorder';
 
 // Debug-only, deliberate JS-thread freeze to manually verify the JS-busy
 // indicator. Defined inside `if (__DEV__)` (not just gated at the call
@@ -44,7 +45,11 @@ export function PerfOverlay() {
   useEffect(() => {
     const meter = meterRef.current!;
     meter.start();
-    return () => meter.stop();
+    setActiveMeter(meter);
+    return () => {
+      meter.stop();
+      setActiveMeter(null);
+    };
   }, []);
 
   useEffect(() => {

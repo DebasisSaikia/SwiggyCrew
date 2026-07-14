@@ -1,0 +1,15 @@
+{
+  "id": "run-1784054621732",
+  "startedAt": 1784054621732,
+  "endedAt": 1784054679117,
+  "p50FrameTimeMs": 8.468343019485474,
+  "p95FrameTimeMs": 26.064127922058105,
+  "worstFrameTimeMs": 165.40283203125,
+  "frameDropCount": 341,
+  "overlayVisible": true,
+  "device": "Pixel 9 Pro Fold, physical device, 120Hz display",
+  "buildType": "dev-client (Metro attached)",
+  "regression": "trip-card-details.tsx: 'expanded &&' guard removed, day-highlights ScrollView mounts unconditionally for all 120 cards instead of lazily (CLAUDE.md rule #2 violated on purpose)",
+  "coldMountFpsObserved": "47 FPS (PerfOverlay reading immediately after app launch, before any scroll) vs 118 FPS on the fixed build — see phase4_regressed.png vs phase4_smoke1.png",
+  "scriptedSequence": "30s idle scroll, 3x expand/collapse, open sheet + settle, scripted chat message + 20s concurrent scroll, close sheet"
+}
