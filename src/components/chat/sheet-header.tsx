@@ -12,7 +12,7 @@ interface SheetHeaderProps {
 // "minimize" affordance) — matches CLAUDE.md's iconography convention.
 export function SheetHeader({ onMinimize }: SheetHeaderProps) {
   return (
-    <View>
+    <>
       <View className="flex-row items-center justify-between px-4 py-3">
         <Text className="text-crew-heading text-primary">Ask Crew</Text>
         <Pressable onPress={onMinimize} className="h-7 w-7 items-center justify-center">
@@ -20,6 +20,6 @@ export function SheetHeader({ onMinimize }: SheetHeaderProps) {
         </Pressable>
       </View>
       <View className="h-px w-full bg-border" />
-    </View>
+    </>
   );
 }

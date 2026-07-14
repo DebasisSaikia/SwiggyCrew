@@ -24,6 +24,8 @@ export const colors = {
   badgeExperienceBg: '#FFEEE0',
   badgeExperienceFg: '#BE681D',
   scrim: '#1B1916',
+  /** Same base as `scrim`, at the dev-tooling overlay pill's own opacity. */
+  devOverlayBg: 'rgba(27, 25, 22, 0.7)',
 } as const;
 
 export const radii = {

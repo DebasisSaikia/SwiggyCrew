@@ -11,6 +11,8 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import { PerfOverlay } from '@/components/perf/perf-overlay';
+
 import '../global.css';
 
 SplashScreen.preventAutoHideAsync();
@@ -38,6 +40,7 @@ export default function RootLayout() {
       <BottomSheetModalProvider>
         <Slot />
       </BottomSheetModalProvider>
+      <PerfOverlay />
     </SafeAreaProvider>
   );
 }
