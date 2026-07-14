@@ -21,17 +21,54 @@ those docs when they conflict.
   size estimation entirely — do NOT set `estimatedItemSize`/`estimatedListSize`;
   v2 auto-sizes. `overrideItemLayout` only supports span changes now, not
   custom item sizing.
-- @gorhom/bottom-sheet + react-native-reanimated 4 + react-native-worklets
-  + react-native-gesture-handler for the Ask Crew sheet. Reanimated 4 needs
+- `@expo/ui/community/bottom-sheet` (native Material3 `ModalBottomSheet` on
+  Android, native SwiftUI sheet on iOS) for the Ask Crew sheet, NOT
+  `@gorhom/bottom-sheet`. We started with gorhom per the original plan, but
+  on a real Android dev client `present()` returned successfully yet
+  `onChange`/`onAnimate` never fired and the sheet never visually appeared —
+  even in gorhom's own bare-minimum example, with React Compiler disabled,
+  with a release build. Matches a currently-unresolved upstream issue (sheet
+  invisible in dev-client builds on Android). `@expo/ui`'s bottom sheet API
+  is deliberately gorhom-compatible (same `snapPoints`, `index`,
+  `present()`/`dismiss()`, `BottomSheetView`/`BottomSheetFlatList`/
+  `BottomSheetTextInput`), so treat its props as the source of truth over
+  gorhom's docs where they diverge — notably: Android only supports 2 snap
+  states (partial ~50%, expanded), custom `handleComponent`/`backgroundStyle`
+  styling mostly has no effect (native chrome renders its own), and
+  `BottomSheetModalProvider` is a no-op kept only for API parity.
+  **KNOWN ISSUE, deferred, do not "fix" without asking:** on Android,
+  `ChatInputBar` doesn't render until the sheet is fully expanded (92%) —
+  invisible at the partial (50%) snap point. A from-scratch replacement
+  (`Modal`/absolutely-positioned overlay + core `Animated` + `PanResponder`,
+  no third-party sheet lib at all) got further — it fixed the sheet not
+  presenting, and a separate Reanimated/secondary-Fabric-surface crash
+  (`RetryableMountingLayerException: Unable to find SurfaceMountingManager`)
+  — but hit a still-unexplained bug where any scrollable sibling (`FlatList`
+  OR `ScrollView`) prevents `ChatInputBar` from rendering at all, regardless
+  of sibling order, absolute positioning, elevation, or `overflow`. Chasing
+  Android fixes for that replacement also broke iOS. Reverted back to
+  `@expo/ui` rather than ship something broken on both platforms — the
+  partial-height bug is Android-only and considered acceptable for now.
+- react-native-reanimated 4 + react-native-worklets for everything else
+  that animates (day-highlight chevron rotation, feed skeleton shimmer,
+  typing-indicator dots) — NOT used for the sheet. Reanimated 4 needs
   `react-native-worklets` as a separate peer dependency (already installed).
   The Reanimated babel plugin is auto-configured by `babel-preset-expo` in
-  SDK 57 — do not hand-add a babel plugin entry for it.
+  SDK 57 — do not hand-add a babel plugin entry for it (doing so during
+  Phase 2 debugging caused a stray babel.config.js edit that had to be
+  reverted).
 - expo-image for all remote images (explicit width/height + blurhash placeholder)
 - @expo/vector-icons for all iconography (day-highlight icons, chevrons,
-  FAB glyph, send button, minimize icon). NOTE: despite being an Expo
-  package, it is NOT resolvable by default under this repo's pnpm setup —
-  it was explicitly added as a direct dependency in Phase 0. Don't assume
-  other "bundled with Expo" packages are present without checking.
+  FAB glyph, send button, minimize icon) — used in chat components
+  (`SendIcon`, the minimize chevron in `SheetHeader`), NOT raw
+  `react-native-svg`. NOTE: despite being an Expo package, it is NOT
+  resolvable by default under this repo's pnpm setup — it was explicitly
+  added as a direct dependency in Phase 0. Don't assume other "bundled with
+  Expo" packages are present without checking. The rest of the app (FAB
+  sparkle, day-highlight icons) still uses hand-rolled `react-native-svg`
+  from Phase 0/1; that predates Phase 2 and is a pre-existing CLAUDE.md
+  deviation, not something Phase 2 introduced or fixed — flag it if you
+  touch those files, but don't silently "fix" it as a drive-by.
 - @expo-google-fonts/inter + expo-font for the Inter type scale (loaded via
   `useFonts` in the root layout, gates splash screen hide).
 - NativeWind v4 + Tailwind for styling — STATIC classNames only on anything

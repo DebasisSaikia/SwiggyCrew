@@ -23,10 +23,4 @@ export function Fab({ onPress }: FabProps) {
   );
 }
 
-const fabShadow = {
-  shadowColor: elevation.fab.color,
-  shadowOpacity: elevation.fab.opacity,
-  shadowOffset: elevation.fab.offset,
-  shadowRadius: elevation.fab.radius,
-  elevation: 6,
-};
+const fabShadow = { boxShadow: elevation.fab.boxShadow };
