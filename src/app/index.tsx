@@ -1,5 +1,6 @@
 import { View } from 'react-native';
 
+import { AskCrewSheet } from '@/components/chat/ask-crew-sheet';
 import { DevFpsCounter } from '@/components/feed/dev-fps-counter';
 import { Fab } from '@/components/feed/fab';
 import { FeedList } from '@/components/feed/feed-list';
@@ -10,6 +11,8 @@ import { useFeedStore } from '@/store/feed-store';
 
 const FAB_CLEARANCE = 56 + 24 + 16;
 
+// isSheetOpen is deliberately never read here — only AskCrewSheet subscribes
+// to it, so opening/closing the sheet can never re-render FeedList.
 export default function TripFeedScreen() {
   const { data, isLoading } = useTripFeedData();
   const openSheet = useFeedStore((state) => state.openSheet);
@@ -20,6 +23,7 @@ export default function TripFeedScreen() {
       {isLoading ? <FeedSkeleton /> : <FeedList data={data} bottomInset={FAB_CLEARANCE} />}
       <Fab onPress={openSheet} />
       <DevFpsCounter />
+      <AskCrewSheet />
     </View>
   );
 }

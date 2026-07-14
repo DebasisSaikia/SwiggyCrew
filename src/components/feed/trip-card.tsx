@@ -63,12 +63,6 @@ function TripCardComponent({ trip }: TripCardProps) {
   );
 }
 
-const cardShadow = {
-  shadowColor: elevation.card.color,
-  shadowOpacity: elevation.card.opacity,
-  shadowOffset: elevation.card.offset,
-  shadowRadius: elevation.card.radius,
-  elevation: 4,
-};
+const cardShadow = { boxShadow: elevation.card.boxShadow };
 
 export const TripCard = memo(TripCardComponent);

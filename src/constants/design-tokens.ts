@@ -41,10 +41,15 @@ export const spacing = {
   cardGap: 16,
 } as const;
 
+/**
+ * Fabric (New Architecture) deprecated shadowColor/shadowOffset/shadowOpacity/
+ * shadowRadius in favor of the CSS-style `boxShadow` string — pre-computed
+ * here from Design Docs §1.3 (offsetX offsetY blur spread color).
+ */
 export const elevation = {
-  card: { color: '#1A1714', opacity: 0.12, offset: { width: 0, height: 4 }, radius: 16 },
-  fab: { color: '#000000', opacity: 0.18, offset: { width: 0, height: 6 }, radius: 20 },
-  sheet: { color: '#000000', opacity: 0.15, offset: { width: 0, height: -8 }, radius: 24 },
+  card: { boxShadow: '0px 4px 16px 2px rgba(26, 23, 20, 0.12)' },
+  fab: { boxShadow: '0px 6px 20px 0px rgba(0, 0, 0, 0.18)' },
+  sheet: { boxShadow: '0px -8px 24px 0px rgba(0, 0, 0, 0.15)' },
 } as const;
 
 export const typography = {
