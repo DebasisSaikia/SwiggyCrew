@@ -7,6 +7,16 @@ architecture rationale and phase history live in `CLAUDE.md`; measured
 numbers live in `PERFORMANCE.md`. This file covers setup, state management,
 and known limitations.
 
+## Demo
+
+**Android (physical device)**
+
+<!-- Drag the Android demo video in here while editing this file on github.com — GitHub uploads it and inserts the right embed automatically. -->
+
+**iOS (simulator)**
+
+<!-- Drag the iOS demo video in here while editing this file on github.com — GitHub uploads it and inserts the right embed automatically. -->
+
 ## Setup
 
 This app uses `@expo/ui`'s native bottom sheet, which is **not supported in
