@@ -1,7 +1,6 @@
 import { View } from 'react-native';
 
 import { AskCrewSheet } from '@/components/chat/ask-crew-sheet';
-import { DevFpsCounter } from '@/components/feed/dev-fps-counter';
 import { Fab } from '@/components/feed/fab';
 import { FeedList } from '@/components/feed/feed-list';
 import { FeedSkeleton } from '@/components/feed/feed-skeleton';
@@ -22,7 +21,6 @@ export default function TripFeedScreen() {
       <FeedTopBar />
       {isLoading ? <FeedSkeleton /> : <FeedList data={data} bottomInset={FAB_CLEARANCE} />}
       <Fab onPress={openSheet} />
-      <DevFpsCounter />
       <AskCrewSheet />
     </View>
   );
