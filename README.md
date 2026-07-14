@@ -11,7 +11,13 @@ and known limitations.
 
 **Android (physical device)**
 
-<!-- Drag the Android demo video in here while editing this file on github.com — GitHub uploads it and inserts the right embed automatically. -->
+
+
+https://github.com/user-attachments/assets/b71d43f1-b53f-4079-9a6e-60cbf0089c73
+
+
+
+
 
 **iOS (simulator)**
 
