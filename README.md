@@ -20,14 +20,12 @@ https://github.com/user-attachments/assets/b71d43f1-b53f-4079-9a6e-60cbf0089c73
 
 
 **iOS (simulator)**
+**IOS simulator video size is more than 50mb so can't upload it here ** — Please scan this QR to download the file
 
 <img width="524" height="636" alt="image" src="https://github.com/user-attachments/assets/6eadc7e7-e7e5-4881-8eca-5f6b7904ddf4" />
 
 
 ## Setup
-
-This app uses `@expo/ui`'s native bottom sheet, which is **not supported in
-Expo Go** — you need a custom dev client.
 
 ```bash
 pnpm install
