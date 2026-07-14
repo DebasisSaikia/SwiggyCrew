@@ -21,7 +21,8 @@ https://github.com/user-attachments/assets/b71d43f1-b53f-4079-9a6e-60cbf0089c73
 
 **iOS (simulator)**
 
-<!-- Drag the iOS demo video in here while editing this file on github.com — GitHub uploads it and inserts the right embed automatically. -->
+<img width="524" height="636" alt="image" src="https://github.com/user-attachments/assets/6eadc7e7-e7e5-4881-8eca-5f6b7904ddf4" />
+
 
 ## Setup
 
